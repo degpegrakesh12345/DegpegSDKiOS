@@ -21,7 +21,7 @@ TODO: Add long description of the pod here.
   s.author           = { 'rakesh.kumar@degpeg.com' => 'rakesh.kumar@degpeg.com' }
   s.source           = { :git => 'https://github.com/degpegrakesh12345/DegpegSDKiOS.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-  s.source_files  = "DegpegSDKiOS/**/*.{h,m,swift}"
+  s.source_files  = 'DegpegSDKiOS/**/*.{swift}'
   
 #  s.ios.deployment_target = '9.0'
 #
