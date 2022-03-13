@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		183EEB4727DE252F00414B70 /* DScrollViewElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183EEB4327DE252F00414B70 /* DScrollViewElement.swift */; };
+		183EEB4827DE252F00414B70 /* DScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183EEB4427DE252F00414B70 /* DScrollView.swift */; };
+		183EEB4927DE252F00414B70 /* DScrollView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183EEB4527DE252F00414B70 /* DScrollView+.swift */; };
+		183EEB4A27DE252F00414B70 /* DScrollViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183EEB4627DE252F00414B70 /* DScrollViewContainer.swift */; };
 		19ED8C90581CF2C92D19DF30BE064822 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		20CE83E8247EA30FEB941F9ECF8F48E4 /* DegpegSDKiOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C8B8E0B519FB0F5B1EC3FDA4DCC35BD8 /* DegpegSDKiOS-dummy.m */; };
 		359F83597B01A83B23A9B41D8515911A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
@@ -37,10 +41,14 @@
 
 /* Begin PBXFileReference section */
 		011A9A5CD3E92939CAD23789ABECC0E9 /* Pods-DegpegSDKiOS_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DegpegSDKiOS_Example-Info.plist"; sourceTree = "<group>"; };
+		183EEB4327DE252F00414B70 /* DScrollViewElement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DScrollViewElement.swift; sourceTree = "<group>"; };
+		183EEB4427DE252F00414B70 /* DScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DScrollView.swift; sourceTree = "<group>"; };
+		183EEB4527DE252F00414B70 /* DScrollView+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DScrollView+.swift"; sourceTree = "<group>"; };
+		183EEB4627DE252F00414B70 /* DScrollViewContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DScrollViewContainer.swift; sourceTree = "<group>"; };
 		1CD2229BABB87B3346BC4BABBFDE6D6A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		2462450BA5E2BE9B59C99C42CB5AE382 /* Pods-DegpegSDKiOS_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DegpegSDKiOS_Tests-dummy.m"; sourceTree = "<group>"; };
 		2D4FA78A0A0A48ACBD523A47E2BDD323 /* Pods-DegpegSDKiOS_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DegpegSDKiOS_Tests-umbrella.h"; sourceTree = "<group>"; };
-		2F95566B0F363D375ECD56764CEE706E /* DegpegSDKiOS */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DegpegSDKiOS; path = DegpegSDKiOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F95566B0F363D375ECD56764CEE706E /* DegpegSDKiOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DegpegSDKiOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		30C19F5C6782B5B90E624D4DA6E20C46 /* Pods-DegpegSDKiOS_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DegpegSDKiOS_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		40C9F31186D3A4F19A317661666B7016 /* Pods-DegpegSDKiOS_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DegpegSDKiOS_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		41363AE08EBEF32BF28E45DEC7EA1B08 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -150,7 +158,7 @@
 		520EDF4A6CDCE72DCAEDF77343102AAF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2F95566B0F363D375ECD56764CEE706E /* DegpegSDKiOS */,
+				2F95566B0F363D375ECD56764CEE706E /* DegpegSDKiOS.framework */,
 				7D2F43DC59E002A3B8A110BC37ACED2A /* Pods-DegpegSDKiOS_Example */,
 				46E68546A2EF531B8C6E948771AA00BE /* Pods-DegpegSDKiOS_Tests */,
 			);
@@ -185,6 +193,10 @@
 		A051D77E169891751657911BB02C8602 /* DegpegSDKiOS */ = {
 			isa = PBXGroup;
 			children = (
+				183EEB4427DE252F00414B70 /* DScrollView.swift */,
+				183EEB4527DE252F00414B70 /* DScrollView+.swift */,
+				183EEB4627DE252F00414B70 /* DScrollViewContainer.swift */,
+				183EEB4327DE252F00414B70 /* DScrollViewElement.swift */,
 				40B99641CC192B6E370F4A6DB91CD401 /* Pod */,
 				1C1108EED69F464ACAD333FA818E0DDF /* Support Files */,
 			);
@@ -265,7 +277,7 @@
 			);
 			name = DegpegSDKiOS;
 			productName = DegpegSDKiOS;
-			productReference = 2F95566B0F363D375ECD56764CEE706E /* DegpegSDKiOS */;
+			productReference = 2F95566B0F363D375ECD56764CEE706E /* DegpegSDKiOS.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		86EC1913C30E9E0D204EB052FF03667F /* Pods-DegpegSDKiOS_Example */ = {
@@ -314,6 +326,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1240;
 				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					272C3F44CC3C3DBD63375D4F05089713 = {
+						LastSwiftMigration = 1320;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -372,7 +389,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				183EEB4827DE252F00414B70 /* DScrollView.swift in Sources */,
+				183EEB4A27DE252F00414B70 /* DScrollViewContainer.swift in Sources */,
 				20CE83E8247EA30FEB941F9ECF8F48E4 /* DegpegSDKiOS-dummy.m in Sources */,
+				183EEB4927DE252F00414B70 /* DScrollView+.swift in Sources */,
+				183EEB4727DE252F00414B70 /* DScrollViewElement.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -504,6 +525,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C1C160F6F91779040204D9911B210EFF /* DegpegSDKiOS.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -694,6 +716,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BD7ED8C1BCBBDD26543343C475C9B324 /* DegpegSDKiOS.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -713,6 +736,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
