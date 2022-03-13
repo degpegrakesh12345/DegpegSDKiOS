@@ -122,6 +122,17 @@
 			path = "Target Support Files/Pods-DegpegSDKiOS_Tests";
 			sourceTree = "<group>";
 		};
+		183EEB4C27DE2DF000414B70 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				183EEB4427DE252F00414B70 /* DScrollView.swift */,
+				183EEB4527DE252F00414B70 /* DScrollView+.swift */,
+				183EEB4627DE252F00414B70 /* DScrollViewContainer.swift */,
+				183EEB4327DE252F00414B70 /* DScrollViewElement.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
 		1C1108EED69F464ACAD333FA818E0DDF /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -193,10 +204,6 @@
 		A051D77E169891751657911BB02C8602 /* DegpegSDKiOS */ = {
 			isa = PBXGroup;
 			children = (
-				183EEB4427DE252F00414B70 /* DScrollView.swift */,
-				183EEB4527DE252F00414B70 /* DScrollView+.swift */,
-				183EEB4627DE252F00414B70 /* DScrollViewContainer.swift */,
-				183EEB4327DE252F00414B70 /* DScrollViewElement.swift */,
 				40B99641CC192B6E370F4A6DB91CD401 /* Pod */,
 				1C1108EED69F464ACAD333FA818E0DDF /* Support Files */,
 			);
@@ -207,6 +214,7 @@
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
+				183EEB4C27DE2DF000414B70 /* Source */,
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				4F9320C2BDDC50F45F2AA259A75F604A /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
