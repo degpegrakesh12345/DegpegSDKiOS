@@ -16,7 +16,6 @@
 		8E6363BD87482D5F54A979F21E53E68A /* Pods-DegpegSDKiOS_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DD48D374930B81355537ACCD0859195E /* Pods-DegpegSDKiOS_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B918C1DB3AFD74A0F6A93366A6EC3681 /* Pods-DegpegSDKiOS_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D4FA78A0A0A48ACBD523A47E2BDD323 /* Pods-DegpegSDKiOS_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D47BF4DD9655A8DC9E510EF755008FAA /* Pods-DegpegSDKiOS_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2462450BA5E2BE9B59C99C42CB5AE382 /* Pods-DegpegSDKiOS_Tests-dummy.m */; };
-		FA90BDCEF6172E4B57AD4CAD0BF11469 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20E741CC4762E9997847A46FADE30968 /* ReplaceMe.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +38,6 @@
 /* Begin PBXFileReference section */
 		011A9A5CD3E92939CAD23789ABECC0E9 /* Pods-DegpegSDKiOS_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DegpegSDKiOS_Example-Info.plist"; sourceTree = "<group>"; };
 		1CD2229BABB87B3346BC4BABBFDE6D6A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		20E741CC4762E9997847A46FADE30968 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = DegpegSDKiOS/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		2462450BA5E2BE9B59C99C42CB5AE382 /* Pods-DegpegSDKiOS_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DegpegSDKiOS_Tests-dummy.m"; sourceTree = "<group>"; };
 		2D4FA78A0A0A48ACBD523A47E2BDD323 /* Pods-DegpegSDKiOS_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DegpegSDKiOS_Tests-umbrella.h"; sourceTree = "<group>"; };
 		2F95566B0F363D375ECD56764CEE706E /* DegpegSDKiOS */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DegpegSDKiOS; path = DegpegSDKiOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -187,7 +185,6 @@
 		A051D77E169891751657911BB02C8602 /* DegpegSDKiOS */ = {
 			isa = PBXGroup;
 			children = (
-				20E741CC4762E9997847A46FADE30968 /* ReplaceMe.swift */,
 				40B99641CC192B6E370F4A6DB91CD401 /* Pod */,
 				1C1108EED69F464ACAD333FA818E0DDF /* Support Files */,
 			);
@@ -376,7 +373,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				20CE83E8247EA30FEB941F9ECF8F48E4 /* DegpegSDKiOS-dummy.m in Sources */,
-				FA90BDCEF6172E4B57AD4CAD0BF11469 /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
