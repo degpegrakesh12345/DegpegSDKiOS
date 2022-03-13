@@ -24,7 +24,7 @@ TODO: Add long description of the pod here.
 
 #  s.ios.deployment_target = '9.0'
 #
-   s.source_files = 'DegpegSDKiOS/Classes/**/*'
+   s.source_files = 'DegpegSDKiOS/Classes/**/*.swift'
    s.ios.deployment_target = "13.1"
 #   s.source_files = 'Source/**/*.swift'
    s.swift_version = '5.0'
