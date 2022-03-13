@@ -122,17 +122,6 @@
 			path = "Target Support Files/Pods-DegpegSDKiOS_Tests";
 			sourceTree = "<group>";
 		};
-		183EEB4B27DE25DB00414B70 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				183EEB4427DE252F00414B70 /* DScrollView.swift */,
-				183EEB4527DE252F00414B70 /* DScrollView+.swift */,
-				183EEB4627DE252F00414B70 /* DScrollViewContainer.swift */,
-				183EEB4327DE252F00414B70 /* DScrollViewElement.swift */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
 		1C1108EED69F464ACAD333FA818E0DDF /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -204,7 +193,10 @@
 		A051D77E169891751657911BB02C8602 /* DegpegSDKiOS */ = {
 			isa = PBXGroup;
 			children = (
-				183EEB4B27DE25DB00414B70 /* Classes */,
+				183EEB4427DE252F00414B70 /* DScrollView.swift */,
+				183EEB4527DE252F00414B70 /* DScrollView+.swift */,
+				183EEB4627DE252F00414B70 /* DScrollViewContainer.swift */,
+				183EEB4327DE252F00414B70 /* DScrollViewElement.swift */,
 				40B99641CC192B6E370F4A6DB91CD401 /* Pod */,
 				1C1108EED69F464ACAD333FA818E0DDF /* Support Files */,
 			);
