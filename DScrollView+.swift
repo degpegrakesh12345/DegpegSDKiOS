@@ -20,40 +20,92 @@ extension UIView {
         
         switch safeArea {
         case .top:
-            topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor).isActive = true
+            if #available(iOS 11.0, *) {
+                topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor).isActive = true
+            } else {
+                // Fallback on earlier versions
+            };if #available(iOS 11.0, *) {
+                topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor).isActive = true
+            } else {
+                // Fallback on earlier versions
+            }
             leadingAnchor.constraint(equalTo: view.leadingAnchor).isActive = true
             trailingAnchor.constraint(equalTo: view.trailingAnchor).isActive = true
             bottomAnchor.constraint(equalTo: view.bottomAnchor).isActive = true
         case .leading:
             topAnchor.constraint(equalTo: view.topAnchor).isActive = true
-            leadingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.leadingAnchor).isActive = true
+            if #available(iOS 11.0, *) {
+                leadingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.leadingAnchor).isActive = true
+            } else {
+                // Fallback on earlier versions
+            }
             trailingAnchor.constraint(equalTo: view.trailingAnchor).isActive = true
             bottomAnchor.constraint(equalTo: view.bottomAnchor).isActive = true
         case .trailing:
             topAnchor.constraint(equalTo: view.topAnchor).isActive = true
             leadingAnchor.constraint(equalTo: view.leadingAnchor).isActive = true
-            trailingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.trailingAnchor).isActive = true
+            if #available(iOS 11.0, *) {
+                trailingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.trailingAnchor).isActive = true
+            } else {
+                // Fallback on earlier versions
+            }
             bottomAnchor.constraint(equalTo: view.bottomAnchor).isActive = true
         case .bottom:
             topAnchor.constraint(equalTo: view.topAnchor).isActive = true
             leadingAnchor.constraint(equalTo: view.leadingAnchor).isActive = true
             trailingAnchor.constraint(equalTo: view.trailingAnchor).isActive = true
-            bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor).isActive = true
+            if #available(iOS 11.0, *) {
+                bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor).isActive = true
+            } else {
+                // Fallback on earlier versions
+            }
         case .vertical:
-            topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor).isActive = true
+            if #available(iOS 11.0, *) {
+                topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor).isActive = true
+            } else {
+                // Fallback on earlier versions
+            }
             leadingAnchor.constraint(equalTo: view.leadingAnchor).isActive = true
             trailingAnchor.constraint(equalTo: view.trailingAnchor).isActive = true
-            bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor).isActive = true
+            if #available(iOS 11.0, *) {
+                bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor).isActive = true
+            } else {
+                // Fallback on earlier versions
+            }
         case .horizontal:
             topAnchor.constraint(equalTo: view.topAnchor).isActive = true
-            leadingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.leadingAnchor).isActive = true
-            trailingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.trailingAnchor).isActive = true
+            if #available(iOS 11.0, *) {
+                leadingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.leadingAnchor).isActive = true
+            } else {
+                // Fallback on earlier versions
+            }
+            if #available(iOS 11.0, *) {
+                trailingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.trailingAnchor).isActive = true
+            } else {
+                // Fallback on earlier versions
+            }
             bottomAnchor.constraint(equalTo: view.bottomAnchor).isActive = true
         case .all:
-            topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor).isActive = true
-            leadingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.leadingAnchor).isActive = true
-            trailingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.trailingAnchor).isActive = true
-            bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor).isActive = true
+            if #available(iOS 11.0, *) {
+                topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor).isActive = true
+            } else {
+                // Fallback on earlier versions
+            }
+            if #available(iOS 11.0, *) {
+                leadingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.leadingAnchor).isActive = true
+            } else {
+                // Fallback on earlier versions
+            }
+            if #available(iOS 11.0, *) {
+                trailingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.trailingAnchor).isActive = true
+            } else {
+                // Fallback on earlier versions
+            }
+            if #available(iOS 11.0, *) {
+                bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor).isActive = true
+            } else {
+                // Fallback on earlier versions
+            }
         case .none:
             topAnchor.constraint(equalTo: view.topAnchor).isActive = true
             leadingAnchor.constraint(equalTo: view.leadingAnchor).isActive = true
@@ -88,7 +140,11 @@ extension UIView {
         cover.topAnchor.constraint(equalTo: topAnchor).isActive = true
         cover.leadingAnchor.constraint(equalTo: leadingAnchor).isActive = true
         cover.trailingAnchor.constraint(equalTo: trailingAnchor).isActive = true
-        cover.bottomAnchor.constraint(equalTo: safeAreaLayoutGuide.topAnchor).isActive = true
+        if #available(iOS 11.0, *) {
+            cover.bottomAnchor.constraint(equalTo: safeAreaLayoutGuide.topAnchor).isActive = true
+        } else {
+            // Fallback on earlier versions
+        }
         
         return self
     }
