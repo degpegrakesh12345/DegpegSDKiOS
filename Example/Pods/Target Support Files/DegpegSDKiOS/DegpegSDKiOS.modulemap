@@ -1,0 +1,6 @@
+framework module DegpegSDKiOS {
+  umbrella header "DegpegSDKiOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

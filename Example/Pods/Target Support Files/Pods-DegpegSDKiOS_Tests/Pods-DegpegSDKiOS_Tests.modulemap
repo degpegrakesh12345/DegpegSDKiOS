@@ -1,0 +1,6 @@
+framework module Pods_DegpegSDKiOS_Tests {
+  umbrella header "Pods-DegpegSDKiOS_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,16 @@
+PODS:
+  - DegpegSDKiOS (0.1.0)
+
+DEPENDENCIES:
+  - DegpegSDKiOS (from `../`)
+
+EXTERNAL SOURCES:
+  DegpegSDKiOS:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DegpegSDKiOS: c37f6ad32d17f42e660dd62971c82f4d4cbd5082
+
+PODFILE CHECKSUM: bde00e03eaebaa88673642798a32f52c13cc2ec9
+
+COCOAPODS: 1.11.2

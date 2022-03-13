@@ -1,10 +1,4 @@
 #
-# Be sure to run `pod lib lint DegpegSDKiOS.podspec' to ensure this is a
-# valid spec before submitting.
-#
-# Any lines starting with a # are optional, but their use is encouraged
-# To learn more about a Podspec see https://guides.cocoapods.org/syntax/podspec.html
-#
 
 Pod::Spec.new do |s|
   s.name             = 'DegpegSDKiOS'
@@ -21,19 +15,24 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/acct<blob>=0xC2A072616B6573682E6B756D6172406465677065672E636F6D  0240rakesh.kumar@degpeg.com/DegpegSDKiOS'
+  s.homepage         = 'https://github.com/degpegrakesh12345/DegpegSDKiOS'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'acct<blob>=0xC2A072616B6573682E6B756D6172406465677065672E636F6D  0240rakesh.kumar@degpeg.com' => 'rakesh.kumar@degpeg.com' }
-  s.source           = { :git => 'https://github.com/acct<blob>=0xC2A072616B6573682E6B756D6172406465677065672E636F6D  0240rakesh.kumar@degpeg.com/DegpegSDKiOS.git', :tag => s.version.to_s }
+  s.author           = { 'rakesh.kumar@degpeg.com' => 'rakesh.kumar@degpeg.com' }
+  s.source           = { :git => 'https://github.com/degpegrakesh12345/DegpegSDKiOS.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '9.0'
-
-  s.source_files = 'DegpegSDKiOS/Classes/**/*'
-  
+#  s.ios.deployment_target = '9.0'
+#
+   s.source_files = 'SDKPEG/**/*.{swift}'
+   s.ios.deployment_target = "13.1"
+#   s.source_files = 'Source/**/*.swift'
+   s.swift_version = '5.0'
+   s.platforms = {
+       "ios": "13.1"
+   }
   # s.resource_bundles = {
-  #   'DegpegSDKiOS' => ['DegpegSDKiOS/Assets/*.png']
+  #   'SDKPEG' => ['SDKPEG/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
